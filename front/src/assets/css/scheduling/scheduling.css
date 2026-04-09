@@ -1,0 +1,817 @@
+.content__wrap {
+  width: calc(100% - 60px);
+  height: calc(100% - 48px);
+  margin-left: auto;
+  padding: 32px 32px 38px 32px;
+}
+.content__body {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 32px;
+  margin-top: 30px;
+}
+.content__panel {
+  width: 530px;
+  height: 908px;
+  border-radius: 16px;
+  border: 1px solid #222A47;
+  background: #12172E;
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.16);
+}
+.content__panel--large {
+  width: 1233px;
+}
+.content__panel--large .content__panel__body {
+  display: flex;
+  gap: 0 39px;
+  padding: 40px 24px 32px 24px;
+}
+.content__panel__head {
+  display: flex;
+  align-items: center;
+  height: 56px;
+  padding: 0 24px 0 22px;
+  border-bottom: solid 1px #222A47;
+}
+.content__panel__head__icon {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 6px;
+  background-size: 100%;
+  background: url("../../images/dark/page/Management_Dashboard/icon/icon_contentsTab_title_list.svg") no-repeat center/100%;
+}
+.content__panel__head__title {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F2F4FC;
+}
+.content__panel__body {
+  padding: 8px 12px 25px 24px;
+}
+.content__panel .search__list {
+  padding: 0;
+}
+.content__panel .search__list .custom-scroll {
+  overflow-y: scroll;
+}
+.content__panel .search__list__wrap {
+  height: 776px;
+}
+.content__panel .search__list__panel {
+  width: 482px;
+  height: 776px;
+}
+.content__panel .search__list__head {
+  margin-bottom: 7px;
+}
+.content__panel .search__list__body--default .search__list__panel {
+  border-color: #2A2E54;
+  background: #1A203A;
+}
+.content__panel .search__list__box {
+  height: 48px;
+}
+.content__panel .search__list__box .search__list__item {
+  height: 36px;
+  line-height: 36px;
+}
+.content__panel .search__list__box .search__list__item:nth-child(1) {
+  padding: 0;
+}
+.content__panel .search__list__box:hover {
+  border-color: #2A2E54;
+  background: #1A203A;
+  cursor: default;
+}
+.content__panel .search__list__item {
+  display: flex;
+  justify-content: center;
+}
+.content__panel .search__list__item:nth-child(1) {
+  width: 160px;
+  justify-content: flex-start;
+  padding: 0 16px;
+}
+.content__panel .search__list__item:nth-child(2) {
+  width: 123px;
+}
+.content__panel .search__list__item:nth-child(3) {
+  width: 115px;
+  justify-content: flex-start;
+}
+.content__panel .search__list__item:nth-child(4) {
+  align-items: center;
+  width: 66px;
+}
+
+.scheduling {
+  width: 480px;
+}
+.scheduling__tab {
+  display: flex;
+  justify-content: space-between;
+}
+.scheduling__tab .btn__tab {
+  width: 50%;
+  height: 42px;
+  font-size: 15px;
+  font-weight: 500;
+  color: #BCBFCC;
+  border-radius: 10px 10px 0 0;
+  background-color: #12172E;
+}
+.scheduling__tab .btn__tab:hover {
+  color: #9C7BFF;
+}
+.scheduling__tab .btn__tab.active {
+  color: #F2F4FC;
+  background-color: #1A203A;
+}
+.scheduling__content {
+  width: 100%;
+  border-radius: 0 0 10px 10px;
+}
+.scheduling__content__item {
+  display: none;
+  height: 738px;
+  padding: 32px 24px 32px 32px;
+  font-size: 13px;
+  color: #F2F4FC;
+  background-color: #1A203A;
+}
+.scheduling__content__item.active {
+  display: block;
+}
+.scheduling .content__box {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+.scheduling .content__box + .content__box {
+  margin-top: 16px;
+}
+.scheduling .content__name {
+  width: 78px;
+  padding-top: 13px;
+}
+.scheduling .content__value {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 0;
+  position: relative;
+  width: 345px;
+}
+.scheduling .content__value .notice {
+  margin-top: 2px;
+  font-size: 11px;
+  font-weight: 300;
+  color: #A8AFBD;
+}
+.scheduling .content__value__input {
+  width: 100%;
+}
+.scheduling .content__value__input:hover input {
+  border-color: #543FAF;
+  background: #12172E;
+}
+.scheduling .content__value__input input {
+  width: 100%;
+  height: 36px;
+  padding: 0 65px 0 15px;
+  font-weight: 300;
+  color: #FFF;
+  border-radius: 6px;
+  border: 1px solid #090A14;
+  background: #12172E;
+}
+.scheduling .content__value__input input:focus {
+  border-color: #7A45FF;
+  background: #19133B;
+}
+.scheduling .content__value .text-counting {
+  padding-left: 15px;
+  font-weight: 300;
+  color: #8588A1;
+}
+.scheduling .content__value .text-counting span {
+  color: #F2F4FC;
+}
+.scheduling .content__value .text-counting span.over {
+  color: #EC5656;
+}
+.scheduling .content__value .search__select {
+  width: 100%;
+}
+.scheduling .content__value .search__select__head {
+  background-color: #12172E;
+}
+.scheduling .content__value .search__select__head.active {
+  background-color: #19133B;
+}
+.scheduling .content__value .search__select__body {
+  padding: 15px 10px 15px 15px;
+}
+.scheduling .content__value .search__select__token__list {
+  width: 268px;
+}
+.scheduling .content__value .search__select .custom-scroll {
+  max-height: 158px;
+}
+.scheduling .content__value .term {
+  margin: 0 8px;
+  font-size: 20px;
+  color: #BCBFCC;
+}
+.scheduling .content__textarea {
+  width: 345px;
+  height: 116px;
+  padding: 10px 15px;
+  color: #FFF;
+  line-height: 1.4;
+  border-radius: 6px;
+  border: 1px solid #090A14;
+  background: #12172E;
+}
+.scheduling .content__textarea::placeholder {
+  color: #707287;
+}
+.scheduling .content__textarea:hover {
+  border-color: #543FAF;
+}
+.scheduling .content__textarea:focus {
+  border-color: #7A45FF;
+  background: #19133B;
+}
+.scheduling .content__video__list {
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  gap: 8px 13px;
+}
+.scheduling .content__video__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 166px;
+  height: 36px;
+  border-radius: 6px;
+  background-color: #3E4165;
+}
+.scheduling .content__video__item--empty {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: dashed 1px #4B4E73;
+  background-color: #1A203A;
+}
+.scheduling .content__video__item--empty i {
+  display: block;
+  width: 18px;
+  height: 18px;
+  background: url("../../images/dark/page/Management_Dashboard/icon/icon_btn_contents_plus.svg") no-repeat center/100%;
+}
+.scheduling .content__video__item--empty:hover {
+  border-color: #7A45FF;
+  background-color: #12172E;
+}
+.scheduling .content__video__item__title {
+  width: 97px;
+  color: #FFF;
+}
+.scheduling .datepicker__wrap .datepicker {
+  width: 158px;
+}
+.scheduling .datepicker__wrap .datepicker__input {
+  background-color: #12172E;
+}
+.scheduling .select__wrap--time .btn--select {
+  width: 82px;
+}
+.scheduling .select__wrap--time .custom-scroll {
+  height: 167px;
+}
+.scheduling .select__wrap--week {
+  margin-left: auto;
+}
+.scheduling .select__wrap--week .btn--select {
+  width: 136px;
+}
+.scheduling .select__wrap--background {
+  margin: 4px 0;
+}
+.scheduling .select__wrap--background .select-box {
+  margin-left: 17px;
+}
+.scheduling .select__wrap--background .select__name {
+  padding-left: 5px;
+}
+.scheduling .select__wrap--background .select__scroll {
+  height: auto;
+}
+.scheduling .select__wrap--background .btn--select {
+  width: 274px;
+}
+.scheduling .select__wrap--view .drop-down {
+  padding: 5px;
+}
+.scheduling .select__wrap--view .btn--select {
+  width: 345px;
+}
+.scheduling .select__wrap--view .select__scroll {
+  height: auto;
+}
+
+.calendar {
+  width: 666px;
+  height: 780px;
+}
+
+i.video-icon {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 4px;
+  background-size: 100%;
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_btn_video_file.svg");
+}
+
+.preview {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+}
+.preview__content {
+  width: 328px;
+  height: 221px;
+  border-radius: 8px;
+  border: 1px solid #7A45FF;
+  background: #1A203A;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.32);
+}
+.preview__content__head {
+  display: flex;
+  align-items: center;
+  height: 33px;
+  padding: 0 11px;
+}
+.preview__content__head__title {
+  max-width: 277px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #FFF;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.preview__content__body {
+  width: 100%;
+  height: 188px;
+  padding: 0 4px 8px;
+}
+.preview__in {
+  width: 100%;
+  height: 100%;
+  background-color: #000;
+  background-image: url("../../images/dark/common/img/img_notice_bgExample_fire_big.png");
+  background-size: 100%;
+  background-position: center;
+}
+.preview .btn--close {
+  width: 17px;
+  height: 17px;
+  margin-left: auto;
+  background: url("../../images/dark/common/btn/btn_cctv_window_close_normal.svg") no-repeat center/100%;
+}
+.preview .btn--close:hover {
+  background-image: url("../../images/dark/common/btn/btn_cctv_window_close_hover.svg");
+}
+
+.notice__panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1560px;
+  height: 878px;
+  border-radius: 40px;
+  border: 1px solid rgba(255, 255, 255, 0.6);
+  background: rgba(255, 255, 255, 0.15);
+  box-shadow: 0px 8px 14px 0px rgba(0, 0, 0, 0.25), 12px 12px 24px 0px rgba(255, 255, 255, 0.1) inset;
+  backdrop-filter: blur(12px);
+  z-index: 1;
+}
+.notice__panel .logo {
+  position: absolute;
+  top: 64px;
+  left: 80px;
+  width: 152.679px;
+  height: 44px;
+  background: url("../../images/dark/page/SeniorCenter_Dashboard/img/img_seniorCenter_wide_noticeScreen_bi.svg") no-repeat center/100%;
+}
+.notice__panel__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+.notice__panel__icon {
+  display: block;
+  width: 96px;
+  height: 96px;
+  background: url("../../images/dark/page/SeniorCenter_Dashboard/img/icon_seniorCenter_noticeScreen_warning.png") no-repeat center/100%;
+}
+.notice__panel__title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 596px;
+  height: 120px;
+  margin-top: 10px;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.14;
+  color: #FFF;
+  text-shadow: 0px 0px 4px rgba(0, 0, 0, 0.24);
+}
+.notice__panel__text {
+  max-width: 761px;
+  margin-top: 50px;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: #FFF;
+  text-align: center;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn__group--scheduling {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 24px;
+  padding-top: 24px;
+  border-top: solid 1px #2A2E54;
+}
+.btn--delete {
+  width: 26px;
+  height: 26px;
+  background: url("../../images/dark/page/Management_Dashboard/btn/btn_scheduleContents_delete_normal.svg") no-repeat center/100%;
+}
+.btn--delete:hover {
+  background-image: url("../../images/dark/page/Management_Dashboard/btn/btn_scheduleContents_delete_hover.svg");
+}
+.btn--content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 144px;
+  height: 36px;
+  border-radius: 5px;
+  background-color: #3E4165;
+  box-shadow: 1px 1px 1px 0px rgba(255, 255, 255, 0.1) inset;
+}
+.btn--content:hover {
+  background-color: #535680;
+}
+.btn--content:active {
+  background-color: #4C3BB8;
+  cursor: grabbing;
+}
+.btn--content i {
+  margin-bottom: 0;
+}
+.btn--content p {
+  width: 92px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.btn--content p:hover {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+.btn--preview {
+  margin-left: auto;
+  margin-right: 3px;
+  font-size: 12px;
+}
+.btn--preview:hover {
+  color: #9C7BFF;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.btn__search--delete {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 28px;
+  height: 28px;
+  background: url("../../images/dark/common/btn/btn_gis_searchBar_delete_normal.svg") no-repeat center/100%;
+}
+.btn__scheduling {
+  height: 36px;
+  border-radius: 18px;
+}
+.btn__scheduling i {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  margin-right: 6px;
+  background-size: 100%;
+}
+.btn__scheduling.disable {
+  pointer-events: none;
+  opacity: 0.33;
+}
+.btn__scheduling--full {
+  width: 424px;
+}
+.btn__scheduling--half {
+  width: 208px;
+}
+.btn__scheduling--save, .btn__scheduling--send {
+  background-color: #7A45FF;
+}
+.btn__scheduling--save:hover, .btn__scheduling--send:hover {
+  background-color: #9A73FF;
+}
+.btn__scheduling--save i {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_btn_save.svg");
+}
+.btn__scheduling--send i {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_btn_transmission.svg");
+}
+.btn__scheduling--delete {
+  background-color: #EC5656;
+}
+.btn__scheduling--delete i {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_btn_delete.svg");
+}
+.btn__scheduling--delete:hover {
+  background-color: #FF7373;
+}
+.btn__scheduling--edite {
+  background-color: #E0A53F;
+}
+.btn__scheduling--edite i {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_btn_edit.svg");
+}
+.btn__scheduling--edite:hover {
+  background-color: #FAC15F;
+}
+
+.calendar__days {
+  height: 780px;
+}
+.calendar .fc .fc-toolbar {
+  justify-content: center;
+  margin-bottom: 8px;
+}
+.calendar .fc-toolbar-title {
+  padding: 0 24px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #FFF;
+}
+.calendar .fc-today-button.fc-button.fc-button-primary {
+  display: none;
+}
+.calendar .fc .fc-button {
+  width: 26px;
+  height: 26px;
+}
+.calendar .fc .fc-button-primary {
+  border: none;
+}
+.calendar .fc .fc-button .fc-icon {
+  display: none;
+}
+.calendar .fc-icon-chevron-left::before,
+.calendar .fc-icon-chevron-right::before {
+  display: none;
+}
+.calendar .fc .fc-button-primary:focus {
+  box-shadow: none;
+}
+.calendar .fc .fc-button:focus {
+  box-shadow: none;
+  outline: 0px;
+}
+.calendar .fc-direction-ltr .fc-button-group > .fc-button:not(:last-child) {
+  background-color: transparent;
+}
+.calendar .fc-prev-button {
+  background: url("../../images/dark/common/btn/btn_eventHistory_calendar_prev_normal.svg") no-repeat center/100%;
+}
+.calendar .fc-prev-button:hover {
+  background-color: transparent;
+  background-image: url("../../images/dark/common/btn/btn_eventHistory_calendar_prev_hover.svg");
+}
+.calendar .calendar .fc-direction-ltr .fc-button-group > .fc-button:not(:first-child) {
+  background-color: transparent;
+}
+.calendar .fc-next-button {
+  background-color: transparent;
+  background: url("../../images/dark/common/btn/btn_eventHistory_calendar_next_normal.svg") no-repeat center/100%;
+}
+.calendar .fc-next-button:hover {
+  background-color: transparent;
+  background-image: url("../../images/dark/common/btn/btn_eventHistory_calendar_next_hover.svg");
+}
+.calendar .fc-theme-standard td, .calendar .fc-theme-standard th {
+  background: #12172E;
+}
+.calendar .fc-col-header-cell-cushion {
+  padding: 13px 4px;
+  background-color: #1A203A;
+}
+.calendar .color01 {
+  border-color: #9677E0;
+  background-color: #9677E0;
+}
+.calendar .color01:hover {
+  background-color: #B299EF;
+}
+.calendar .color02 {
+  border-color: #4FC1E8;
+  background-color: #4FC1E8;
+}
+.calendar .color02:hover {
+  background-color: #7BCDEA;
+}
+.calendar .color03 {
+  border-color: #7DB541;
+  background-color: #7DB541;
+}
+.calendar .color03:hover {
+  background-color: #A0D369;
+}
+.calendar .color04 {
+  border-color: #D4A93F;
+  background-color: #D4A93F;
+}
+.calendar .color04:hover {
+  background-color: #E9C774;
+}
+.calendar .color05 {
+  border-color: #ED5564;
+  background-color: #ED5564;
+}
+.calendar .color05:hover {
+  background-color: #F68993;
+}
+.calendar .fc .fc-daygrid-day-frame {
+  width: 95px;
+  height: 116px;
+  padding: 12px 4px 6px;
+}
+.calendar .fc-daygrid-day-number {
+  font-size: 16px;
+  font-weight: 500;
+  color: #F2F4FC;
+  text-align: center;
+  height: 18px;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.calendar .fc .fc-daygrid-event {
+  margin-top: 3PX;
+}
+.calendar .fc-event.selected {
+  border-color: #fff !important;
+}
+.calendar .fc-h-event .fc-event-title-container {
+  max-height: 39px;
+  padding: 2px;
+}
+.calendar .fc-h-event .fc-event-title {
+  max-height: 28px;
+  line-height: 1.1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: break-spaces;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+}
+.calendar .fc .fc-daygrid-day-events {
+  left: 3px;
+  right: 5px;
+}
+.calendar .fc-direction-ltr .fc-daygrid-event.fc-event-end, .calendar .fc-direction-rtl .fc-daygrid-event.fc-event-start {
+  margin: 0;
+  margin-top: 3PX;
+}
+.calendar .fc-daygrid-event {
+  margin-top: 3px;
+  border-radius: 5px !important;
+  padding: 0;
+  font-size: 13px;
+  color: #FFF;
+}
+.calendar .fc-daygrid-event.selected {
+  border-color: #fff;
+}
+.calendar .fc .fc-daygrid-more-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 88px;
+  height: 22px;
+  margin-top: 3px;
+  text-align: center;
+  font-size: 12px;
+  font-weight: 300;
+  color: #C6CCE1;
+  border-radius: 4px;
+  background: transparent;
+}
+.calendar .fc .fc-daygrid-more-link:hover {
+  color: #FFF;
+  background: #272D4D;
+}
+.calendar .fc .fc-daygrid-day-bottom {
+  margin: 0;
+}
+.calendar .fc-theme-standard .fc-popover {
+  display: block;
+  max-width: 165px;
+  max-height: 170px;
+  padding: 10px 4px 4px;
+  border-radius: 8px;
+  border: 1px solid #7A45FF;
+  background: #1A203A;
+  box-shadow: 0px 8px 10px 0px rgba(0, 0, 0, 0.32);
+}
+.calendar .fc-theme-standard .fc-popover .fc-popover-close.fc-icon.fc-icon-x {
+  width: 17px;
+  height: 17px;
+  background: url("../../images/dark/common/btn/btn_cctv_window_close_normal.svg") no-repeat center/100%;
+  margin-left: 23px;
+}
+.calendar .fc-theme-standard .fc-popover .fc-popover-close.fc-icon.fc-icon-x::before {
+  display: none;
+}
+.calendar .fc-theme-standard .fc-popover .fc-event-title-container {
+  text-align: center;
+}
+.calendar .fc-theme-standard .fc-popover .fc-event {
+  width: 100%;
+}
+.calendar .fc .fc-popover-title {
+  width: 52px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #FFF;
+  margin-left: auto;
+  text-align: center;
+}
+.calendar .fc-theme-standard .fc-popover-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 20px;
+  background: transparent;
+}
+.calendar .fc .fc-more-popover .fc-popover-body {
+  min-width: 135px;
+  max-height: 132px;
+  padding: 0;
+  overflow: hidden;
+  overflow-y: auto;
+}
+.calendar .fc .fc-more-popover .fc-popover-body::-webkit-scrollbar {
+  width: 12px;
+  background-color: transparent;
+}
+.calendar .fc .fc-more-popover .fc-popover-body::-webkit-scrollbar-track {
+  border-radius: 25px;
+  border: solid 6px #1A203A;
+  border-right: solid 2px #1A203A;
+  background-color: #1A203A;
+}
+.calendar .fc .fc-more-popover .fc-popover-body::-webkit-scrollbar-thumb {
+  border: solid 6px #1A203A;
+  border-right: solid 2px #1A203A;
+  border-radius: 25px;
+  background-color: #4C5580;
+}
+
+/*# sourceMappingURL=scheduling.css.map */

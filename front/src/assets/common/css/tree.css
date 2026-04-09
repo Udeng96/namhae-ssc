@@ -1,0 +1,310 @@
+.fac-parent {
+    margin-bottom: 1px;
+    font-size: 13px;
+    color: #F2F4FC;
+    font-family: 'Pretendard', sans-serif;
+}
+
+.fac-parent > ol {
+    padding-left: 0 !important;
+}
+
+.fac-second-parent {
+    /*padding-top: 7px;*/
+    margin-top: 9px;
+    margin-left: 6px;
+}
+
+.fac-second-parent > ol {
+    padding-left: 20px !important;
+}
+
+.rct-node-icon {
+    display: none;
+}
+
+.rct-text > label {
+    display: flex;
+    align-items: center;
+}
+
+.fac-second-parent > .rct-text {
+    padding-left: 20px !important;
+    height: 15px;
+}
+
+.cctv-parent .rct-bare-label .rct-node-icon,
+.fac-parent .rct-bare-label .rct-node-icon,
+.map-parent .rct-bare-label .rct-node-icon,
+.iot_map_parent .rct-bare-label .rct-node-icon {
+    display: none;
+}
+
+.cctv-parent .rct-bare-label .rct-title,
+.fac-parent .rct-bare-label .rct-title,
+.map-parent .rct-bare-label .rct-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #b3b7c9;
+}
+
+.cctv-parent {
+}
+
+.cctv-parent .rct-bare-label .rct-node-icon,
+.map-parent .rct-bare-label .rct-node-icon,
+.iot_map_parent .rct-bare-label .rct-node-icon {
+    display: none;
+}
+
+.cctv-parent .rct-bare-label .rct-title,
+.map-parent .rct-bare-label .rct-title {
+    font-size: 14px;
+    font-weight: 500;
+    color: #b3b7c9;
+}
+
+.iot_map_parent { /*    iot �� 愿���     */
+    font-size: 14px;
+    font-weight: 500;
+    color: #b3b7c9;
+}
+
+.rct-node-expanded .rct-collapse-btn > svg {
+    transform: rotate(90deg);
+    color: #666bff;
+    width: 16px;
+    height: 16px;
+}
+
+.rct-node-collapsed .rct-collapse-btn > svg {
+    transform: rotate(0deg);
+    color: #666bff;
+    width: 16px;
+    height: 16px;
+}
+
+.cctv-leaf .rct-text,
+.fac-leaf .rct-text {
+    position: relative;
+    margin-top: 9px;
+}
+
+.map-leaf .rct-text {
+    position: relative;
+    margin-top: 15px;
+}
+
+.iot-map .rct-text {
+    position: relative;
+    margin-top: 12px;
+}
+
+.fac-leaf {
+    margin-left: 22px;
+    height: 15px;
+}
+
+.cctv-leaf .rct-text label,
+.fac-leaf .rct-text label,
+.map-leaf .rct-text label
+.iot-map .rct-text label {
+    position: absolute;
+    left: 18px;
+    bottom: 0;
+    /*top: 10px;*/
+}
+
+.fac-parent .rct-text .rct-checkbox .rct-icon,
+.cctv-leaf .rct-text .rct-checkbox .rct-icon,
+.fac-leaf .rct-text .rct-checkbox .rct-icon,
+.map-leaf .rct-text .rct-checkbox .rct-icon,
+.iot-map .rct-text .rct-checkbox .rct-icon {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 3px;
+    border: solid 1px #555887;
+    background-color: #19133B;
+    transform: translateY(1px);
+}
+
+.fac-parent .rct-text .rct-checkbox .rct-icon:before,
+.cctv-leaf .rct-text .rct-checkbox .rct-icon:before,
+.fac-leaf .rct-text .rct-checkbox .rct-icon:before,
+.map-leaf .rct-text .rct-checkbox .rct-icon:before,
+.iot-map .rct-text .rct-checkbox .rct-icon:before {
+    /*display: none;*/
+    content: '';
+}
+
+.fac-parent .rct-text .rct-checkbox[aria-checked=true] .rct-icon,
+.cctv-leaf .rct-text .rct-checkbox[aria-checked=true] .rct-icon,
+.fac-leaf .rct-text .rct-checkbox[aria-checked=true] .rct-icon,
+.map-leaf .rct-text .rct-checkbox[aria-checked=true] .rct-icon,
+.iot-map .rct-text .rct-checkbox[aria-checked=true] .rct-icon {
+    width: 12px;
+    height: 12px;
+    display: inline-block;
+    border-radius: 3px;
+    background-color: #7A45FF;
+    border-color: #7A45FF;
+    position: relative;
+}
+
+.fac-parent .rct-text .rct-checkbox[aria-checked=true] .rct-icon:before,
+.cctv-leaf .rct-text .rct-checkbox[aria-checked=true] .rct-icon:before,
+.fac-leaf .rct-text .rct-checkbox[aria-checked=true] .rct-icon:before,
+.map-leaf .rct-text .rct-checkbox[aria-checked=true] .rct-icon:before,
+.iot-map .rct-text .rct-checkbox[aria-checked=true] .rct-icon:before {
+    content: "";
+    width: 3px;
+    height: 5px;
+    border: solid #FFFFFF;
+    border-width: 0 2px 2px 0;
+    border-radius: 2px;
+    transform: rotate(45deg) translateX(-60%);
+    position: absolute;
+    left: 50%;
+    top: 3px;
+}
+
+.cctv-leaf .rct-text .rct-node-icon .rct-icon,
+.fac-leaf .rct-text .rct-node-icon .rct-icon,
+.map-leaf .rct-text .rct-node-icon .rct-icon,
+.iot-map .rct-text .rct-node-icon .rct-icon {
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    padding: 0;
+    position: relative;
+    top: 0;
+}
+
+.react-checkbox-tree ol ol {
+    padding-left: 10px;
+}
+
+.cctv-leaf .rct-text .rct-node-icon .rct-icon:before,
+.fac-leaf .rct-text .rct-node-icon .rct-icon:before,
+.map-leaf .rct-text .rct-node-icon .rct-icon:before,
+.iot-map .rct-text .rct-node-icon .rct-icon:before {
+    content: '';
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    background: none;
+}
+
+.cctv-leaf:nth-child(1) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/legend/icon_gisSetting_tree_cctv_1_safeGuard.png") no-repeat;*/
+}
+
+.cctv-leaf:nth-child(2) .rct-text .rct-node-icon .rct-icon:before {
+    padding-left: 0;
+    /*background: url("../../icon/main/legend/icon_gisSetting_tree_cctv_2_childSafety.png");*/
+}
+
+.cctv-leaf:nth-child(3) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/legend/icon_gisSetting_tree_cctv_3_clampdown.png");*/
+}
+
+.cctv-leaf:nth-child(4) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/legend/icon_gisSetting_tree_cctv_4_disaster.png");*/
+}
+
+.cctv-leaf:nth-child(5) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/legend/icon_gisSetting_tree_cctv_5_traffic.png");*/
+}
+
+.map-leaf:nth-child(1) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_earthquakeShelter.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(2) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_waterSupply.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(3) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_emergencyMedicalFacility.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(4) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_publicSafety.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(5) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_publicSafety.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(6) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_coolingCentre.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(7) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_school.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(8) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_university.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(9) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_nursery.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(10) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_coolingCentre.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(11) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_wifi.png") no-repeat;*/
+    background-size: contain;
+}
+
+.map-leaf:nth-child(12) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_summerEvent.png") no-repeat;*/
+    background-size: contain;
+}
+
+/*   iot愿���   */
+.iot-map:nth-child(1) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_waterQuality.png") no-repeat;*/
+    background-size: contain;
+}
+
+.iot-map:nth-child(2) .rct-text .rct-node-icon .rct-icon:before {
+    /*background: url("../../icon/main/marker/etc/icon_gis_etc_wifi.png") no-repeat;*/
+    background-size: contain;
+
+}
+
+.iot-map:nth-child(3) .rct-text .rct-node-icon .rct-icon:before {
+
+
+}
+
+.cctv-leaf > ol .rct-node-icon {
+    display: none;
+}
+
+.cctv-leaf .rct-text .rct-title,
+.map-leaf .rct-text .rct-title {
+    font-size: 13px;
+    font-weight: normal;
+    color: #f7f7f7;
+    position: relative;
+    top: -5px;
+}

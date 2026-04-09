@@ -1,0 +1,42 @@
+.DS_Store
+API_HOME_IS_UNDEFINED/
+src/test/resources/
+src/test/resources/application.yml
+
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/test/**/target/
+
+### Sensitive Config (DO NOT COMMIT) ###
+src/main/resources/application-dev.yml
+src/main/resources/application-prod.yml
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
+front/src/assets/ex/

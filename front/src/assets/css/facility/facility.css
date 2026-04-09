@@ -1,0 +1,192 @@
+#map {
+  height: 100%;
+  z-index: 0;
+}
+
+.content--left .content__head {
+  padding: 0 32px 34px;
+}
+.content--right {
+  padding: 28px 0 25px;
+}
+.content--right .content__head {
+  flex-wrap: wrap;
+  padding: 7px 16px 17px 24px;
+}
+.content--right .content__head .location {
+  padding: 0;
+}
+.content--right .content__head--event {
+  margin-top: 20px;
+  padding: 16px 24px 16px;
+}
+.content--right .content__head .search__result__wrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 30px;
+  padding: 0;
+}
+.content--right .content__head .search__result__update {
+  padding-right: 6px;
+}
+.content .sensor {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 24px;
+}
+.content .sensor__box {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 22px 10px;
+  flex-direction: column;
+  width: 104px;
+  height: 130px;
+  border-radius: 14px;
+  border: 1px solid #3B4163;
+  background: linear-gradient(180deg, #1E2139 0%, #3B4163 100%), #9FAFF6;
+  box-shadow: 0px 4px 6px 0px rgba(0, 0, 0, 0.24);
+}
+.content .sensor__info {
+  text-align: center;
+}
+.content .sensor__icon {
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  margin-bottom: 8px;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.content .sensor__icon--fire {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_rightPanel_sensor_fire.svg");
+}
+.content .sensor__icon--gas {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_rightPanel_sensor_gas.svg");
+}
+.content .sensor__icon--cctv {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_rightPanel_sensor_cctv.svg");
+}
+.content .sensor__icon--emergency {
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_rightPanel_sensor_emergencyBell.svg");
+}
+.content .sensor__name {
+  font-size: 15px;
+  font-weight: 500;
+  color: #FFF;
+}
+.content .sensor__status {
+  text-shadow: 0px 5px 5px rgba(55, 198, 237, 0.25);
+  font-size: 18px;
+  font-weight: 600;
+  color: #37C6ED;
+}
+.content .sensor__status--error {
+  text-shadow: 0px 5px 5px rgba(247, 57, 66, 0.25);
+  color: #F73942;
+}
+.content .search__type .custom-scroll {
+  max-height: 188px;
+}
+.content .search__select__body {
+  padding: 15px 10px 15px 15px;
+}
+.content .search--facility .search__head__box {
+  margin-bottom: 18px;
+}
+.content .search--facility .search__list__item {
+  display: flex;
+  justify-content: center;
+}
+.content .search--facility .search__list__item:nth-child(1) {
+  width: 80px;
+}
+.content .search--facility .search__list__item:nth-child(2) {
+  width: 136px;
+}
+.content .search--facility .search__list__item:nth-child(3) {
+  width: 168px;
+  justify-content: flex-start;
+}
+.content .search--facility .search__list__item:nth-child(4) {
+  width: 68px;
+}
+.content .search--facility .search__list__item__state--normal {
+  color: #37C6ED;
+}
+.content .search--facility .search__list__item__state--error {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content .search--facility .search__list__item__state--error::before {
+  content: "";
+  display: inline-block;
+  width: 22px;
+  height: 22px;
+  background-image: url("../../images/dark/page/Management_Dashboard/icon/icon_list_facility_error.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+.content .search--facility .search__list__panel {
+  width: 468px;
+  height: 627px;
+}
+.content .search--facility .search__list .custom-scroll {
+  height: 627px;
+}
+.content .search--sensor .custom-scroll {
+  height: 585px;
+  overflow-y: scroll;
+}
+.content .search--sensor .search__head {
+  padding: 0 24px;
+}
+.content .search--sensor .search__head .datepicker__area {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 4px;
+  padding: 11px 0;
+  border: solid 1px #2A2E54;
+  border-left: none;
+  border-right: none;
+}
+.content .search--sensor .search__head .datepicker__area .btn__search {
+  width: 86px;
+}
+.content .search--sensor .search__head .datepicker__wrap .datepicker {
+  width: 154px;
+}
+.content .search--sensor .search__list {
+  padding: 0px 12px 0px 24px;
+}
+.content .search--sensor .search__list__box {
+  pointer-events: none;
+}
+.content .search--sensor .search__list__item {
+  display: flex;
+  justify-content: center;
+}
+.content .search--sensor .search__list__item:nth-child(1) {
+  width: 72px;
+}
+.content .search--sensor .search__list__item:nth-child(2) {
+  width: 74px;
+}
+.content .search--sensor .search__list__item:nth-child(3) {
+  width: 136px;
+  justify-content: flex-start;
+}
+.content .search--sensor .search__list__item:nth-child(4) {
+  width: 136px;
+  justify-content: flex-start;
+}
+.content .search--sensor .search__list__panel {
+  width: 434px;
+  height: 585px;
+}
+
+/*# sourceMappingURL=facility.css.map */

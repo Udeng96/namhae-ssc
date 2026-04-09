@@ -1,0 +1,509 @@
+{
+
+  "data" : [
+    {
+      "date": "20231126",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 17
+        },
+        {
+          "type" : "삼동면",
+          "count" : 22
+        },
+        {
+          "type" : "상주면",
+          "count" : 12
+        },
+        {
+          "type" : "미조면",
+          "count" : 26
+        }
+      ]
+    },
+    {
+      "date": "20231127",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 32
+        },
+        {
+          "type" : "삼동면",
+          "count" : 34
+        },
+        {
+          "type" : "상주면",
+          "count" : 43
+        },
+        {
+          "type" : "미조면",
+          "count" : 22
+        }
+      ]
+    },
+    {
+      "date": "20231128",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 27
+        },
+        {
+          "type" : "삼동면",
+          "count" : 21
+        },
+        {
+          "type" : "상주면",
+          "count" : 24
+        },
+        {
+          "type" : "미조면",
+          "count" : 32
+        }
+      ]
+    },
+    {
+      "date": "20231129",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 32
+        },
+        {
+          "type" : "삼동면",
+          "count" : 18
+        },
+        {
+          "type" : "상주면",
+          "count" : 24
+        },
+        {
+          "type" : "미조면",
+          "count" : 19
+        }
+      ]
+    },
+    {
+      "date": "20231130",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 19
+        },
+        {
+          "type" : "삼동면",
+          "count" : 24
+        },
+        {
+          "type" : "상주면",
+          "count" : 8
+        },
+        {
+          "type" : "미조면",
+          "count" : 14
+        }
+      ]
+    },
+    {
+      "date": "20231201",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 19
+        },
+        {
+          "type" : "삼동면",
+          "count" : 24
+        },
+        {
+          "type" : "상주면",
+          "count" : 8
+        },
+        {
+          "type" : "미조면",
+          "count" : 14
+        }
+      ]
+    },
+    {
+      "date": "20231202",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 32
+        },
+        {
+          "type" : "삼동면",
+          "count" : 43
+        },
+        {
+          "type" : "상주면",
+          "count" : 17
+        },
+        {
+          "type" : "미조면",
+          "count" : 22
+        }
+      ]
+    },
+    {
+      "date": "20231203",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 28
+        },
+        {
+          "type" : "삼동면",
+          "count" : 24
+        },
+        {
+          "type" : "상주면",
+          "count" : 15
+        },
+        {
+          "type" : "미조면",
+          "count" : 33
+        }
+      ]
+    },
+    {
+      "date": "20231204",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 12
+        },
+        {
+          "type" : "삼동면",
+          "count" : 13
+        },
+        {
+          "type" : "상주면",
+          "count" : 23
+        },
+        {
+          "type" : "미조면",
+          "count" : 24
+        }
+      ]
+    },
+    {
+      "date": "20231205",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 17
+        },
+        {
+          "type" : "삼동면",
+          "count" : 12
+        },
+        {
+          "type" : "상주면",
+          "count" : 25
+        },
+        {
+          "type" : "미조면",
+          "count" : 12
+        }
+      ]
+    },
+    {
+      "date": "20231206",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 24
+        },
+        {
+          "type" : "삼동면",
+          "count" : 32
+        },
+        {
+          "type" : "상주면",
+          "count" : 14
+        },
+        {
+          "type" : "미조면",
+          "count" : 21
+        }
+      ]
+    },
+    {
+      "date": "20231207",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 22
+        },
+        {
+          "type" : "삼동면",
+          "count" : 43
+        },
+        {
+          "type" : "상주면",
+          "count" : 21
+        },
+        {
+          "type" : "미조면",
+          "count" : 31
+        }
+      ]
+    },
+    {
+      "date": "20231208",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 17
+        },
+        {
+          "type" : "삼동면",
+          "count" : 12
+        },
+        {
+          "type" : "상주면",
+          "count" : 25
+        },
+        {
+          "type" : "미조면",
+          "count" : 12
+        }
+      ]
+    },
+    {
+      "date": "20231209",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 22
+        },
+        {
+          "type" : "삼동면",
+          "count" : 42
+        },
+        {
+          "type" : "상주면",
+          "count" : 12
+        },
+        {
+          "type" : "미조면",
+          "count" : 32
+        }
+      ]
+    },
+    {
+      "date": "20231210",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 11
+        },
+        {
+          "type" : "삼동면",
+          "count" : 14
+        },
+        {
+          "type" : "상주면",
+          "count" : 21
+        },
+        {
+          "type" : "미조면",
+          "count" : 13
+        }
+      ]
+    },
+    {
+      "date": "20231211",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 11
+        },
+        {
+          "type" : "삼동면",
+          "count" : 31
+        },
+        {
+          "type" : "상주면",
+          "count" : 12
+        },
+        {
+          "type" : "미조면",
+          "count" : 8
+        }
+      ]
+    },
+    {
+      "date": "20231212",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 14
+        },
+        {
+          "type" : "삼동면",
+          "count" : 16
+        },
+        {
+          "type" : "상주면",
+          "count" : 21
+        },
+        {
+          "type" : "미조면",
+          "count" : 32
+        }
+      ]
+    },
+    {
+      "date": "20231213",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 5
+        },
+        {
+          "type" : "삼동면",
+          "count" : 7
+        },
+        {
+          "type" : "상주면",
+          "count" : 13
+        },
+        {
+          "type" : "미조면",
+          "count" : 11
+        }
+      ]
+    },
+    {
+      "date": "20231214",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 18
+        },
+        {
+          "type" : "삼동면",
+          "count" : 22
+        },
+        {
+          "type" : "상주면",
+          "count" : 21
+        },
+        {
+          "type" : "미조면",
+          "count" : 31
+        }
+      ]
+    },
+    {
+      "date": "20231215",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 11
+        },
+        {
+          "type" : "삼동면",
+          "count" : 13
+        },
+        {
+          "type" : "상주면",
+          "count" : 22
+        },
+        {
+          "type" : "미조면",
+          "count" : 11
+        }
+      ]
+    },
+    {
+      "date": "20231216",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 17
+        },
+        {
+          "type" : "삼동면",
+          "count" : 12
+        },
+        {
+          "type" : "상주면",
+          "count" : 25
+        },
+        {
+          "type" : "미조면",
+          "count" : 12
+        }
+      ]
+    },
+    {
+      "date": "20231217",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 8
+        },
+        {
+          "type" : "삼동면",
+          "count" : 10
+        },
+        {
+          "type" : "상주면",
+          "count" : 14
+        },
+        {
+          "type" : "미조면",
+          "count" : 21
+        }
+      ]
+    },
+    {
+      "date": "20231218",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 32
+        },
+        {
+          "type" : "삼동면",
+          "count" : 15
+        },
+        {
+          "type" : "상주면",
+          "count" : 21
+        },
+        {
+          "type" : "미조면",
+          "count" : 15
+        }
+      ]
+    },
+    {
+      "date": "20231219",
+      "dataList": [
+        {
+          "type": "이동면",
+          "count" : 5
+        },
+        {
+          "type" : "삼동면",
+          "count" : 8
+        },
+        {
+          "type" : "상주면",
+          "count" : 21
+        },
+        {
+          "type" : "미조면",
+          "count" : 14
+        }
+      ]
+    }
+  ]
+}

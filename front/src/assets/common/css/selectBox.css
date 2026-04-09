@@ -1,0 +1,97 @@
+.select-box {
+  display: inline-block;
+  position: relative;
+  margin-left: auto;
+}
+.select-box .btn--select {
+  position: relative;
+  height: 36px;
+  padding: 5px 30px 5px 10px;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 300;
+  color: #fff;
+  border: solid 1px #3E4165;
+  background-color: #12172E;
+  border-radius: 6px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.select-box .btn--select::before {
+  content: "";
+  display: inline-block;
+  width: 28px;
+  height: 28px;
+  position: absolute;
+  top: 50%;
+  right: 4px;
+  transform: translateY(-50%);
+  border-radius: 5px;
+  background-image: url("../../images/dark/common/btn/btn_dropdown_arrow_normal.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto;
+}
+.select-box .btn--select:hover {
+  border-color: #3E4165;
+  background-color: #1A203A;
+}
+.select-box .btn--select:hover::before {
+  background-image: url("../../images/dark/common/btn/btn_dropdown_arrow_hover.svg");
+}
+.select-box .drop-down {
+  display: none;
+  position: absolute;
+  top: 100%;
+  width: 100%;
+  margin-top: 3px;
+  padding: 5px 7px 5px 5px;
+  font-size: 12px;
+  font-weight: 300;
+  border: solid 1px #7A45FF;
+  background-color: #1A203A;
+  overflow: hidden;
+  border-radius: 6px;
+  z-index: 3;
+}
+.select-box .drop-down .select__scroll {
+  height: 165px;
+}
+.select-box .drop-down .select__scroll * {
+  border-radius: 4px;
+}
+.select-box .drop-down .select__list {
+  position: relative;
+  border-radius: 4px;
+}
+.select-box .drop-down .select__list + .select__list {
+  margin-top: 3px;
+}
+.select-box .drop-down .select__list__item {
+  width: 100%;
+  height: 31px;
+  padding: 0 11px;
+  font-size: inherit;
+  font-weight: inherit;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.select-box .drop-down .select__list:hover {
+  background-color: #2A2E54;
+}
+.select-box .drop-down .select__list.selected {
+  color: #fff;
+  background-color: #7A45FF;
+}
+.select-box.active .btn--select {
+  background-color: #1A203A;
+  border-color: #7A45FF;
+}
+.select-box.active .drop-down {
+  display: block;
+}
+
+/*# sourceMappingURL=selectBox.css.map */

@@ -1,0 +1,27 @@
+<svg width="68" height="68" viewBox="0 0 68 68" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g filter="url(#filter0_i_9842_85953)">
+<path d="M66 34C66 51.6731 51.6731 66 34 66C16.3269 66 2 51.6731 2 34C2 16.3269 16.3269 2 34 2C51.6731 2 66 16.3269 66 34Z" fill="url(#paint0_radial_9842_85953)" fill-opacity="0.6"/>
+</g>
+<path d="M66 34C66 16.3269 51.6731 2 34 2C16.3269 2 2 16.3269 2 34C2 51.6731 16.3269 66 34 66V67C15.7746 67 1 52.2254 1 34C1 15.7746 15.7746 1 34 1C52.2254 1 67 15.7746 67 34C67 52.2254 52.2254 67 34 67V66C51.6731 66 66 51.6731 66 34Z" fill="#CC1433" fill-opacity="0.6"/>
+<path d="M66 34C66 16.3269 51.6731 2 34 2C16.3269 2 2 16.3269 2 34C2 51.6731 16.3269 66 34 66V67C15.7746 67 1 52.2254 1 34C1 15.7746 15.7746 1 34 1C52.2254 1 67 15.7746 67 34C67 52.2254 52.2254 67 34 67V66C51.6731 66 66 51.6731 66 34Z" fill="white" fill-opacity="0.8"/>
+<path opacity="0.2" d="M63.2002 34C63.2002 17.8733 50.1267 4.7998 34 4.7998C17.8733 4.7998 4.7998 17.8733 4.7998 34C4.7998 50.1267 17.8733 63.2002 34 63.2002V64C17.4315 64 4 50.5685 4 34C4 17.4315 17.4315 4 34 4C50.5685 4 64 17.4315 64 34C64 50.5685 50.5685 64 34 64V63.2002C50.1267 63.2002 63.2002 50.1267 63.2002 34Z" fill="white"/>
+<path opacity="0.15" d="M60.2002 34C60.2002 19.5301 48.4699 7.7998 34 7.7998C19.5301 7.7998 7.7998 19.5301 7.7998 34C7.7998 48.4699 19.5301 60.2002 34 60.2002V61C19.0883 61 7 48.9117 7 34C7 19.0883 19.0883 7 34 7C48.9117 7 61 19.0883 61 34C61 48.9117 48.9117 61 34 61V60.2002C48.4699 60.2002 60.2002 48.4699 60.2002 34Z" fill="white"/>
+<path opacity="0.1" d="M57.2002 34C57.2002 21.187 46.813 10.7998 34 10.7998C21.187 10.7998 10.7998 21.187 10.7998 34C10.7998 46.813 21.187 57.2002 34 57.2002V58C20.7452 58 10 47.2548 10 34C10 20.7452 20.7452 10 34 10C47.2548 10 58 20.7452 58 34C58 47.2548 47.2548 58 34 58V57.2002C46.813 57.2002 57.2002 46.813 57.2002 34Z" fill="white"/>
+<path opacity="0.05" d="M54.2002 34C54.2002 22.8438 45.1562 13.7998 34 13.7998C22.8438 13.7998 13.7998 22.8438 13.7998 34C13.7998 45.1562 22.8438 54.2002 34 54.2002V55C22.402 55 13 45.598 13 34C13 22.402 22.402 13 34 13C45.598 13 55 22.402 55 34C55 45.598 45.598 55 34 55V54.2002C45.1562 54.2002 54.2002 45.1562 54.2002 34Z" fill="white"/>
+<defs>
+<filter id="filter0_i_9842_85953" x="2" y="2" width="64" height="64" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="8"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0.92 0 0 0 0 0.85 0 0 0 0 1 0 0 0 0.9 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_9842_85953"/>
+</filter>
+<radialGradient id="paint0_radial_9842_85953" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(34 34) rotate(90) scale(32)">
+<stop stop-color="#400080" stop-opacity="0.5"/>
+<stop offset="1" stop-color="#7A07ED"/>
+</radialGradient>
+</defs>
+</svg>

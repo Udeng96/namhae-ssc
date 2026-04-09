@@ -1,0 +1,92 @@
+.spinner-wrap{
+    position: absolute;
+    width: 100%;
+    height:100%;
+    background-color: black;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.spinner-photo-wrap{
+    background-color: white;
+    width: 60px;
+    height:60px;
+    top: 0;
+    left: 0;
+    /*opacity: 0.5;*/
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spinner-photo-wrap .spinner-loading{
+    width : 100%;
+    height: 100%;
+}
+.spinner-wrap .spinner-loading .spinner,
+.spinner-photo-wrap .spinner-loading .spinner {
+
+    animation: rotator 1.4s linear infinite;
+    position: absolute;
+    z-index: 101;
+}
+
+.spinner-wrap .spinner-loading .spinner{
+    width: 42px;
+    height: 42px;
+}
+
+.spinner-photo-wrap .spinner-loading .spinner{
+    width: 56px;
+    height:56px;
+
+}
+@keyframes rotator {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.spinner-loading .stop1 {
+    stop-color: #fff;
+}
+.spinner-loading .stop2 {
+    stop-color: rgba(255, 255, 255, 0);
+}
+
+.spinner-loading .stopPhoto {
+    stop-color: #331E8F;
+}
+.spinner-loading .stopPhoto2 {
+    stop-color: #331E8F;
+}
+.spinner-loading .stopPhoto3{
+    stop-color: #331E8F;
+}
+.spinner-loading .path {
+    stroke: url(#Gradient1);
+    stroke-dasharray: 131.946864;
+    stroke-dashoffset: 0;
+    transform-origin: center;
+    animation: dash 1.4s linear infinite;
+}
+@keyframes dash {
+    0% {
+        stroke-dashoffset: 131.946864;
+    }
+    50% {
+        stroke-dashoffset: 65.973432;
+        transform: rotate(180deg);
+    }
+    100% {
+        stroke-dashoffset: 131.946864;
+        transform: rotate(360deg);
+    }
+}

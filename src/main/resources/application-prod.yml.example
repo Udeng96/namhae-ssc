@@ -1,0 +1,174 @@
+server:
+  port: YOUR_PORT
+  servlet:
+    context-path: /ssc
+
+spring:
+  profiles:
+    active: default
+  servlet:
+    multipart:
+      max-file-size: 1024MB
+      max-request-size: 1024MB
+  datasource:
+    primary:
+      driver-class-name: org.postgresql.Driver
+      dialect: org.hibernate.dialect.PostgreSQLDialect
+      jdbc-url: jdbc:postgresql://YOUR_DB_HOST:5432/YOUR_DB_NAME
+      username: YOUR_DB_USERNAME
+      password: YOUR_DB_PASSWORD
+    sms:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      dialect: org.hibernate.dialect.MySQL8Dialect
+      jdbc-url: jdbc:mysql://YOUR_MYSQL_HOST:3306/YOUR_MYSQL_DB
+      username: YOUR_MYSQL_USERNAME
+      password: YOUR_MYSQL_PASSWORD
+    broadcast:
+      driver-class-name: org.mariadb.jdbc.Driver
+      dialect: org.hibernate.dialect.MariaDBDialect
+      jdbc-url: jdbc:mariadb://YOUR_MARIADB_HOST:43306/YOUR_MARIADB_DB
+      username: YOUR_MARIADB_USERNAME
+      password: YOUR_MARIADB_PASSWORD
+    hikari:
+      maximum-pool-size: 10
+      connection-timeout: 300000
+  jpa:
+    properties:
+      hibernate:
+        jdbc:
+          batch_size: 11
+    open-in-view: false
+    show-sql: false
+    hibernate:
+      ddl-auto: none
+  web:
+    resources:
+      static-locations: classpath:/META-INF/resources/,classpath:/resources/,classpath:/static/,classpath:/public/
+
+api:
+  weather:
+    dust:
+      url: https://apis.data.go.kr/B552584/ArpltnInforInqireSvc/getCtprvnRltmMesureDnsty
+      key: YOUR_WEATHER_API_KEY
+    info:
+      url: http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getVilageFcst?pageNo=1&numOfRows=1000
+      ultra-url: http://apis.data.go.kr/1360000/VilageFcstInfoService_2.0/getUltraSrtFcst?numOfRows=1000&pageNo=1
+      key: YOUR_WEATHER_INFO_API_KEY
+      grid:
+        x: 77
+        y: 68
+    report:
+      url: https://apis.data.go.kr/1360000/WthrWrnInfoService/getWthrWrnMsg
+      key: YOUR_WEATHER_REPORT_API_KEY
+      stnId: 295
+  youtube:
+    api-key: YOUR_YOUTUBE_API_KEY
+    channel: YOUR_YOUTUBE_CHANNEL_ID
+  bus:
+    key: YOUR_BUS_API_KEY
+    cityCode: YOUR_CITY_CODE
+    url:
+      station: http://apis.data.go.kr/1613000/BusSttnInfoInqireService/getCrdntPrxmtSttnList?numOfRows=100&pageNo=1&serviceKey={stationApiKey}&gpsLati={gpsLati}&_type=json&gpsLong={gpsLong}
+      arrival: http://apis.data.go.kr/1613000/ArvlInfoInqireService/getSttnAcctoArvlPrearngeInfoList?serviceKey={arrivalApiKey}&cityCode={cityCode}&nodeId={nodeId}&numOfRows=100&pageNo=1&_type=json
+      route: http://apis.data.go.kr/1613000/BusRouteInfoInqireService/getRouteNoList?serviceKey={routeApiKey}&cityCode={cityCode}&routeNo={routeNo}&numOfRows=100&pageNo=1&_type=json
+
+event:
+  ip: http://YOUR_EVENT_HOST
+  conf:
+    url:
+      base: http://YOUR_CONF_HOST/rest
+      open: /south/setSimpleSession
+      save: /ssc/event/info
+      close: /ssc/event/conference
+      bell: /ssc/event/bell
+      setParticipant: /south/setParticipant
+      removeParticipant: /south/removeParticipant
+      autoEnter: /south/getScheme
+    customerId: YOUR_CONF_CUSTOMER_ID
+    userId: YOUR_CONF_USER_ID
+    numberOfVideo: 4
+  settop:
+    url:
+      base: http://YOUR_SETTOP_HOST/command-parse
+      second: http://YOUR_SETTOP_HOST_2/command-parse
+      second_param_ip: YOUR_SETTOP_IP
+      noti: http://YOUR_NOTI_HOST/ssc/sc/noti/
+
+rino-platform:
+  oms:
+    url: http://YOUR_OMS_HOST/oms
+    api:
+      user:
+        info: /api/user/info
+        auth: /api/user/sysAuth
+        list: /api/user/sysList
+        tokenAlive: /api/user/chkTokenAlive
+        logout: /api/user/logout
+      event:
+        role:
+          list: /api/role/event/list
+    system:
+      key: YOUR_OMS_KEY
+      secret: YOUR_OMS_SECRET
+  crypt:
+    api:
+      address: http://YOUR_CRYPT_HOST/crypt/api
+    decrypt: /decrypt
+    system:
+      key: YOUR_CRYPT_KEY
+      secret: YOUR_CRYPT_SECRET
+    crypt:
+      type: ARIA
+
+public:
+  common:
+    apis:
+      vworld:
+        url: http://api.vworld.kr/req
+        subUrls:
+          searchPos: /search
+          getPos: /address
+        params:
+          key: YOUR_VWORLD_API_KEY
+          serviceSearch: search
+          serviceGet: address
+          requestSearch: search
+          requestCoord: getCoord
+          version: 2.0
+          crs: EPSG:4326
+          page: 1
+          size: 1000
+          typeSearch: place
+          typeCoord: parcel
+          format: json
+          zipcode: false
+          simple: true
+
+system:
+  values:
+    proxy:
+    secret: YOUR_SYSTEM_SECRET
+    key: SSC
+    useEventAuth: false
+    port: YOUR_PORT
+    eventPort: YOUR_EVENT_PORT
+    wsPort: YOUR_WS_PORT
+
+ssc_log: inactive
+
+socket:
+  port: YOUR_SOCKET_PORT
+
+axis:
+  device:
+    url: http://YOUR_AXIS_HOST/axis/api/sound?center-id={center-id}
+
+signal:
+  light:
+    ip: YOUR_SIGNAL_IP
+    port: YOUR_SIGNAL_PORT
+    cnt: 5
+    term: 2
+
+sms:
+  sender: 'YOUR_SMS_SENDER_NUMBER'

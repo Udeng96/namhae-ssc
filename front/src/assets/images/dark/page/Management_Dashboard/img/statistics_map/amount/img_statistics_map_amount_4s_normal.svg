@@ -1,0 +1,20 @@
+<svg width="74" height="74" viewBox="0 0 74 74" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="37" cy="37" r="37" fill="#F57C8B" fill-opacity="0.3"/>
+<circle cx="37" cy="37" r="36.6" stroke="#FFBAC2" stroke-opacity="0.3" stroke-width="0.8"/>
+<g filter="url(#filter0_i_5372_41106)">
+<circle cx="37" cy="37" r="33" fill="#F57C8B" fill-opacity="0.45"/>
+</g>
+<circle cx="37" cy="37" r="32.6" stroke="#FFBAC2" stroke-width="0.8"/>
+<defs>
+<filter id="filter0_i_5372_41106" x="4" y="4" width="66" height="66" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+<feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset/>
+<feGaussianBlur stdDeviation="12.8"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 1 0 0 0 0 0.729412 0 0 0 0 0.760784 0 0 0 0.32 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_5372_41106"/>
+</filter>
+</defs>
+</svg>

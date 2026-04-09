@@ -1,0 +1,552 @@
+[{
+  "facId": "FAC_b7DgEda-QtKbCPlEB4MoYm",
+  "facNm": "라온빌리지앞",
+  "lat": 127.036014,
+  "lng": 37.209549,
+  "useYn": "1",
+  "data": "null",
+  "mgrNo": "CTV00002851"
+},
+  {
+    "facId": "FAC_6h-JLZN24G5bXFUK18yQAL",
+    "facNm": "라온빌리지앞-검지1",
+    "lat": 127.036014,
+    "lng": 37.209549,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00002852",    "mgrNo": "CTV00002852"
+
+  },
+  {
+    "facId": "FAC_2hUzvD4BAR686i1cAMMUVi",
+    "facNm": "라온빌리지앞-검지2",
+    "lat": 127.036014,
+    "lng": 37.209549,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00002853"
+  },
+  {
+    "facId": "FAC_eLK8tKZwQ6s9T2EMqFj6qq",
+    "facNm": "발렌티하우스앞",
+    "lat": 127.033213,
+    "lng": 37.208518,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00003961"
+  },
+  {
+    "facId": "FAC_er90n6CTk2HbiBt1-0WhU1",
+    "facNm": "발렌티하우스앞-검지1",
+    "lat": 127.033213,
+    "lng": 37.208518,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00003962"
+  },
+  {
+    "facId": "FAC_aa-Y354D4BV9zva5bkB2uZ",
+    "facNm": "선돌교회제1주차장",
+    "lat": 127.03716,
+    "lng": 37.207526,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00005914"
+  },
+  {
+    "facId": "FAC_paT9MVwkO28Fk2L7w4aQD",
+    "facNm": "선돌교회제1주차장-검지1",
+    "lat": 127.03716,
+    "lng": 37.207526,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00005915"
+  },
+  {
+    "facId": "FAC_FNNifzFkaj96RwKO1b7LF",
+    "facNm": "선돌교회제1주차장-검지2",
+    "lat": 127.03716,
+    "lng": 37.207526,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00005916"
+  },
+  {
+    "facId": "FAC_eIH-gEuRk4e9hsNDc8TCCG",
+    "facNm": "선돌교회제1주차장-검지3",
+    "lat": 127.03716,
+    "lng": 37.207526,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00005917"
+  },
+  {
+    "facId": "FAC_auu6QXWakHO9QaSIlUL3WI",
+    "facNm": "선돌교회제1주차장-검지4",
+    "lat": 127.03716,
+    "lng": 37.207526,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00005918"
+  },
+  {
+    "facId": "FAC_cnU73R25Qhg8U2cDPmh4a6",
+    "facNm": "씽크아울렛앞",
+    "lat": 127.036488,
+    "lng": 37.207291,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007506"
+  },
+  {
+    "facId": "FAC_9rPhWIKVkLkbRnEuQrQINM",
+    "facNm": "씽크아울렛앞-검지1",
+    "lat": 127.036488,
+    "lng": 37.207291,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007507"
+  },
+  {
+    "facId": "FAC_b47p1NiN4vP9Ahu~J8H9DP",
+    "facNm": "씽크아울렛앞-검지2",
+    "lat": 127.036488,
+    "lng": 37.207291,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007508"
+  },
+  {
+    "facId": "FAC_dbwT7gmbADKbw5UGzVbIXh",
+    "facNm": "씽크아울렛앞-검지3",
+    "lat": 127.036488,
+    "lng": 37.207291,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007509"
+  },
+  {
+    "facId": "FAC_cm3UrQdWkQEaRikz0XVy2f",
+    "facNm": "우리들기획건너편",
+    "lat": 127.037154,
+    "lng": 37.210519,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00008837"
+  },
+  {
+    "facId": "FAC_fnxJZlHi4keayWrGYUi3z4",
+    "facNm": "우리들기획건너편-검지1",
+    "lat": 127.037154,
+    "lng": 37.210519,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00008838"
+  },
+  {
+    "facId": "FAC_3oLJtMG4E8boikUHcRKez",
+    "facNm": "우리들기획건너편-검지2",
+    "lat": 127.037154,
+    "lng": 37.210519,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00008839"
+  },
+  {
+    "facId": "FAC_eZPquaG1kw28z0oFXM0rjS",
+    "facNm": "우리들기획건너편-검지3",
+    "lat": 127.037154,
+    "lng": 37.210519,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00008840"
+  },
+  {
+    "facId": "FAC_15a~-pULkxMaRc4lrBohFw",
+    "facNm": "화성시청동부출장소앞",
+    "lat": 127.036147,
+    "lng": 37.207895,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011920"
+  },
+  {
+    "facId": "FAC_dnAeoeIHkWvb24RBkikPlE",
+    "facNm": "화성시청동부출장소앞-검지1",
+    "lat": 127.036147,
+    "lng": 37.207895,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011921"
+  },
+  {
+    "facId": "FAC_fYRHLOf8AtO9wKflZHXDFD",
+    "facNm": "화성시청동부출장소앞-검지2",
+    "lat": 127.036147,
+    "lng": 37.207895,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011922"
+  },
+  {
+    "facId": "FAC_fE8cQ6eEACn9temq13cA~b",
+    "facNm": "화성시청동부출장소앞-검지3",
+    "lat": 127.036147,
+    "lng": 37.207895,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011923"
+  },
+  {
+    "facId": "FAC_9e~vUF58kEq8~kF~3psxgN",
+    "facNm": "이마트24화성병점초교점맞은편",
+    "lat": 127.034419,
+    "lng": 37.208836,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00009163"
+  },
+  {
+    "facId": "FAC_4YkvTJ6549v8LB5GRNHIR6",
+    "facNm": "이마트24화성병점초교점맞은편-검지1",
+    "lat": 127.034419,
+    "lng": 37.208836,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00009164"
+  },
+  {
+    "facId": "FAC_4v5ZPWJaksP8NzsiwCQSWg",
+    "facNm": "이마트24화성병점초교점맞은편-검지2",
+    "lat": 127.034419,
+    "lng": 37.208836,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00009165"
+  },
+  {
+    "facId": "FAC_5bgwJcxVQGtbGTYUeH0IjV",
+    "facNm": "이마트24화성병점초교점맞은편-검지3",
+    "lat": 127.034419,
+    "lng": 37.208836,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00009166"
+  },
+  {
+    "facId": "FAC_4GsnKx7EAWO9ltIG588szs",
+    "facNm": "진안동병점육교",
+    "lat": 127.03215380,
+    "lng": 37.20955210,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010475"
+  },
+  {
+    "facId": "FAC_cxfPZvrh4ZO9unJ2AD7r~h",
+    "facNm": "진안동병점초교후문",
+    "lat": 127.03358730,
+    "lng": 37.21024010,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010476"
+  },
+  {
+    "facId": "FAC_3ztz-QMC4VW9pMI02E0c6g",
+    "facNm": "병점초교뒷길",
+    "lat": 127.03548530,
+    "lng": 37.21067650,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004492"
+  },
+  {
+    "facId": "FAC_4GE8C8SnQevblqoIzltAZb",
+    "facNm": "진안동515-12(진안-01667)",
+    "lat": 127.03694170,
+    "lng": 37.21101430,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010364"
+  },
+  {
+    "facId": "FAC_3Wez1-3YAqIbeoIRd4Go8e",
+    "facNm": "진안동515-12-검지1(진안-01667-1)",
+    "lat": 127.03694170,
+    "lng": 37.21101430,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010365"
+  },
+  {
+    "facId": "FAC_c9dYuN-4AGa8dvHtXBYzVr",
+    "facNm": "진안동515-12-검지2(진안-01667-2)",
+    "lat": 127.03694170,
+    "lng": 37.21101430,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010366"
+  },
+  {
+    "facId": "FAC_8bvJlRsHQYTaB6kYl8XWlZ",
+    "facNm": "진안동515-12-검지3(진안-01667-3)",
+    "lat": 127.03694170,
+    "lng": 37.21101430,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010367"
+  },
+  {
+    "facId": "FAC_9HHjSm67klh8O3vE7G5Ctt",
+    "facNm": "진안동515-12-검지4(진안-01667-4)",
+    "lat": 127.03694170,
+    "lng": 37.21101430,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010368"
+  },
+  {
+    "facId": "FAC_59~DuaINQLd8fwGGlMjcTC",
+    "facNm": "뉴질랜드어린이집",
+    "lat": 127.03728500,
+    "lng": 37.20946770,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00001983"
+  },
+  {
+    "facId": "FAC_bk8a513hAFv960xfKCgtuI",
+    "facNm": "뉴질랜드어린이집-검지1",
+    "lat": 127.03728500,
+    "lng": 37.20946770,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00001984"
+  },
+  {
+    "facId": "FAC_e0Di-lT5AW28qojS0cMPD6",
+    "facNm": "뉴질랜드어린이집-검지2",
+    "lat": 127.03728500,
+    "lng": 37.20946770,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00001985"
+  },
+  {
+    "facId": "FAC_9DSDPrc449xaHDjlQ5OetS",
+    "facNm": "화성직업전문학교앞",
+    "lat": 127.03241780,
+    "lng": 37.20916350,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011921"
+  },
+  {
+    "facId": "FAC_aeZD3EBDABx8J31aTtRflR",
+    "facNm": "화성직업전문학교앞-검지1",
+    "lat": 127.03241780,
+    "lng": 37.20916350,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011922"
+  },
+  {
+    "facId": "FAC_3PAQ-HsiknC9fNridfCTaT",
+    "facNm": "화성직업전문학교앞-검지2",
+    "lat": 127.03241780,
+    "lng": 37.20916350,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00011923"
+  },
+  {
+    "facId": "FAC_1IHy0XoAAX9aAAzGNj55aA",
+    "facNm": "병점초교정문",
+    "lat": 127.03422390,
+    "lng": 37.20908850,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004493"
+  },
+  {
+    "facId": "FAC_fp6vZGAyA0i8G6tWJfjSkk",
+    "facNm": "병점초교정문-검지1",
+    "lat": 127.03422390,
+    "lng": 37.20908850,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004494"
+  },
+  {
+    "facId": "FAC_cxbaKjrykVbb2HZ2S2yGMj",
+    "facNm": "병점초교정문-검지2",
+    "lat": 127.03422390,
+    "lng": 37.20908850,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004495"
+  },
+  {
+    "facId": "FAC_ctjmgarxQuEb~lomXQnNuP",
+    "facNm": "진안동526-23-고정",
+    "lat": 127.03665770,
+    "lng": 37.20910040,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010374"
+  },
+  {
+    "facId": "FAC_7sSzT60D4Dn83QqhdwVddp",
+    "facNm": "진안동525-90-고정",
+    "lat": 127.03384820,
+    "lng": 37.20829670,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00010371"
+  },
+  {
+    "facId": "FAC_4FHF75BAAJa9alSpemWFYV",
+    "facNm": "병점동347-23-검지1",
+    "lat": 127.03710450,
+    "lng": 37.20875350,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004373"
+  },
+  {
+    "facId": "FAC_cYwiYSipQ958Ro2C3ZkTUA",
+    "facNm": "병점동347-23-검지2",
+    "lat": 127.03710450,
+    "lng": 37.20875350,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004374"
+  },
+  {
+    "facId": "FAC_9EG7DUBrAdCaUeVk2Gb-ql",
+    "facNm": "병점사거리",
+    "lat": 127.03512060,
+    "lng": 37.20804130,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004455"
+  },
+  {
+    "facId": "FAC_7JNARhLsQyIaCyXyY0c2XW",
+    "facNm": "아이조음인테리어앞",
+    "lat": 127.03690830,
+    "lng": 37.20807860,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007538"
+  },
+  {
+    "facId": "FAC_2oujI~SW4MT8iCLqskxibH",
+    "facNm": "아이조음인테리어앞-검지1",
+    "lat": 127.03690830,
+    "lng": 37.20807860,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007539"
+  },
+  {
+    "facId": "FAC_4AD4JKoYkZy9~hgZLNh1a8",
+    "facNm": "아이조음인테리어앞-검지2",
+    "lat": 127.03690830,
+    "lng": 37.20807860,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00007540"
+  },
+  {
+    "facId": "FAC_djZf09wAkbwbzR7hBT2oYi",
+    "facNm": "병점동345-11-검지1",
+    "lat": 127.03763150,
+    "lng": 37.20841060,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004363"
+  },
+  {
+    "facId": "FAC_bbt7LqKYQHG8OLkH2WXyfK",
+    "facNm": "병점동345-11-검지2",
+    "lat": 127.03763150,
+    "lng": 37.20841060,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004364"
+  },
+  {
+    "facId": "FAC_T8C4t3PkNza2jTcUJAtV3",
+    "facNm": "병점동345-51(24차)",
+    "lat": 127.0381124,
+    "lng": 37.2082715,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004365"
+  },
+  {
+    "facId": "FAC_aGXufBwVkZt819TcRkFMFe",
+    "facNm": "병점동345-51-검지1(24차)",
+    "lat": 127.0381124,
+    "lng": 37.2082715,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004366"
+  },
+  {
+    "facId": "FAC_1LqX8mVykTl9oVDJErwY-E",
+    "facNm": "병점동345-51-검지2(24차)",
+    "lat": 127.0381124,
+    "lng": 37.2082715,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004367"
+  },
+  {
+    "facId": "FAC_5it1TuAgQaEbhrL2ZpyklX",
+    "facNm": "병점동345-51-검지3(24차)",
+    "lat": 127.0381124,
+    "lng": 37.2082715,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004368"
+  },
+  {
+    "facId": "FAC_3ZoaBfzOQEU8eMxHGZNHc6",
+    "facNm": "병점동345-51-검지4(24차)",
+    "lat": 127.0381124,
+    "lng": 37.2082715,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004369"
+  },
+  {
+    "facId": "FAC_4HUzbCZ~AT3aiy2SNOBMWF",
+    "facNm": "병점성당앞삼거리",
+    "lat": 127.03677940,
+    "lng": 37.20687190,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004456"
+  },
+  {
+    "facId": "FAC_7k5ua7kK48q8TSLesiY9Wl",
+    "facNm": "병점동381-33-검지1",
+    "lat": 127.03544540,
+    "lng": 37.20715310,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004385"
+  },
+  {
+    "facId": "FAC_9yfOxp93AGUbndt9uPkO6x",
+    "facNm": "병점동381-33-검지2",
+    "lat": 127.03544540,
+    "lng": 37.20715310,
+    "useYn": "1",
+    "data": "null",
+    "mgrNo": "CTV00004386"
+  }
+
+]

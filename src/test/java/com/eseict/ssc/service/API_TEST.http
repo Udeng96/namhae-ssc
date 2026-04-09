@@ -1,0 +1,7 @@
+### GET f
+#GET http://localhost:5173/ssc/facility
+GET http://localhost:5173/ssc/weather/info
+
+### GET b
+GET localhost:22510/ssc/facility
+#GET localhost:22510/ssc/weather/info

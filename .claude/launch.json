@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "SSC Front (Vite Dev)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "/Users/youjungjang/Desktop/ESEICT/workspace/2025/namhae/ssc/front",
+      "port": 5173
+    }
+  ]
+}

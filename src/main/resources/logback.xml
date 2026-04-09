@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<configuration scan="true" scanPeriod="1s">
+
+    <evaluator name="CALLER_DISPLAY_EVAL">
+        <expression>event.getLevel().toInteger() != Level.INFO.toInteger() &amp;&amp; event.getLevel().toInteger() != Level.WARN.toInteger()
+        </expression>
+    </evaluator>
+
+    <!-- Appenders -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%highlight(%-5p): [%d{yyyy-MM-dd HH:mm:ss:SSS}] %cyan(%c) - %m%n%caller{2, CALLER_DISPLAY_EVAL}</pattern>
+        </encoder>
+    </appender>
+
+    <!-- Appenders -->
+    <appender name="framework_console" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%-5p: [%d{yyyy-MM-dd HH:mm:ss:SSS}] %c{36} - %m%n</pattern>
+        </encoder>
+    </appender>
+
+    <include file="${SSC_HOME}/logback_config.xml"/>
+    <!-- Root Logger -->
+    <root level="info">
+        <appender-ref ref="framework_console" />
+    </root>
+
+
+</configuration>
