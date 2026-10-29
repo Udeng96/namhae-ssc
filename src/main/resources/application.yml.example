@@ -1,0 +1,13 @@
+# Source reference only: configure adapters, schemas and integration switches before running.
+server:
+  address: 127.0.0.1
+  port: 18080
+  servlet:
+    context-path: /ssc
+spring:
+  datasource:
+    url: ${SSC_DB_URL}
+    username: ${SSC_DB_USER}
+    password: ${SSC_DB_PASSWORD}
+# The original project uses multiple data sources and custom SystemProperties.
+# This is a minimal settings example, not a complete runnable server configuration.

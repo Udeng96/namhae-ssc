@@ -1,0 +1,14 @@
+/target/
+/node_modules/
+/front/node_modules/
+/front/dist/
+.env
+.env.*
+!.env.example
+application*.yml
+!application.yml.example
+*.log
+*.pem
+*.key
+.idea/
+.vscode/
